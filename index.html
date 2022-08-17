@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Classwork</title>
+</head>
+<style>
+    .display{
+        background-color: grey;
+        margin: 0 auto;
+        width: 50vw;
+        height: 70vh;
+        color: white;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-div{
+        display: flex;
+        width: 40vw;
+        margin: 10px auto;
+        justify-content: space-between;
+    }
+    img{
+        width: 102px;
+        height: 101px;
+    }
+    img:hover{
+        cursor: pointer;
+    }
+    button{
+        background-color: white;
+        border: none;
+        outline: none;
+        padding: 0;
+        height: 105px;
+    }
+    .active{
+        border: 2px solid red;
+        height: 105px
+    }
+</style>
+<body>
+    <div class="display">Select one of the images below to display!</div>
+    <div class="image-div">
+        <button><img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt=""></button>
+        <button><img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt=""></button>
+        <button><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80" alt=""></button>
+        <button><img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt=""></button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="display.js"></script>
+</body>
+</html>
